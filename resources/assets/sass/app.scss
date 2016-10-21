@@ -1,0 +1,32 @@
+@import "node_modules/materialize-css/dist/css/materialize";
+
+@font-face {
+  font-family: "PremierSans-Regular";
+  src: url("fonts/PremierLeagueW01-Regular.eot?#iefix");
+  src: url("fonts/PremierLeagueW01-Regular.eot?#iefix") format("eot"), url("fonts/PremierLeagueW01-Regular.woff2") format("woff2"), url("fonts/PremierLeagueW01-Regular.woff") format("woff"), url("fonts/PremierLeagueW01-Regular.ttf") format("truetype"), url("fonts/PremierLeagueW01-Regular.svg#7750d31b-4f46-466c-a7f2-d0071c638678") format("svg"); }
+
+  @font-face {
+    font-family: "PremierSans-Bold";
+    src: url("fonts/PremierLeagueW01-Bold.eot?#iefix");
+    src: url("fonts/PremierLeagueW01-Bold.eot?#iefix") format("eot"), url("fonts/PremierLeagueW01-Bold.woff2") format("woff2"), url("fonts/PremierLeagueW01-Bold.woff") format("woff"), url("fonts/PremierLeagueW01-Bold.ttf") format("truetype"), url("fonts/PremierLeagueW01-Bold.svg#6fd2576b-b17d-42bb-8069-d902dd3f6a6e") format("svg"); }
+
+body {
+    background-color: #38003C;
+}
+
+main {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+a, p {
+    font-family: 'PremierSans-Regular'
+}
+
+h1, h2, h3 {
+    font-family: 'PremierSans-Bold'
+}
